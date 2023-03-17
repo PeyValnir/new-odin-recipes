@@ -1,0 +1,56 @@
+body { 
+    background-color: rgb(178, 104, 55);
+}
+h1 {
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+    font-size: 32px;
+    background-color: rgb(2, 194, 2);
+    height: 100px;
+    width: 200px; 
+    padding-top: 50px;
+    border:black solid 5px;
+    color: white;
+    
+    
+}
+
+.buttons {
+    display: flex;
+    font-size: 24px;
+    
+    padding: 10px;
+
+    
+}
+
+
+
+.button {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    background-color:rgb(2, 194, 2) ;
+    border-color: black;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.button:hover {
+    background-color: black;
+   
+}
+
+a {
+    color:white;
+}
+
+
+
+
+
