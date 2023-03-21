@@ -1,18 +1,20 @@
 body { 
-    background-color: rgb(178, 104, 55);
+    background-color: #A7BEAE;
 }
-h1 {
+/*Style of the landing page*/
+
+#title {
     margin-left:auto;
     margin-right: auto;
     margin-top: auto;
     text-align: center;
     font-size: 32px;
-    background-color: rgb(2, 194, 2);
+    background-color: #B85042;
     height: 100px;
     width: 200px; 
     padding-top: 50px;
     border:black solid 5px;
-    color: white;
+    color: #E7E8D1;
 }
 
 .buttons {
@@ -29,21 +31,75 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 250px;
-    background-color:rgb(2, 194, 2) ;
+    background-color:#B85042 ;
     border-color: black;
-    color: white;
+    color: #E7E8D1;
     font-weight: bold;
     transition: 0.5s;
     border: black solid 3px;
 }
 
 :is(.one, .two, .three):hover {
-    background-color: black;
     padding: 25px;
-    border-color: rgb(2, 194, 2);
 }
 
 a {
-    color:white;
+    color:#E7E8D1;
 }
 
+/*Styles of the recipes*/ 
+
+.title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    background-color: #E7E8D1;
+    width: fit-content;
+    padding: 5px;
+    border: black solid 3px;
+    border-radius: 3px;
+    
+}
+
+.photo {
+    min-height:550px ;
+    min-width: 700px;
+    max-width: 700px;
+    max-height: 550px;
+    border-radius: 5px;
+    border: black solid 4px;
+    display: block;
+    background-color: aliceblue;
+}
+
+.description{ 
+font-style: italic;
+font-weight: bold;
+}
+
+.container {
+ display: block;
+ background-color: #E7E8D1;
+ width: fit-content;
+ position:absolute; 
+ right: 100px;
+ top: 200px;
+ border: black solid 3px;
+ border-radius: 5px;
+}
+
+.steps {
+    background-color: #B85042;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: black solid 3px;
+    border-radius: 5px;
+    list-style-position: inside;
+    margin-top: 5px;
+    width: fit-content;
+    padding: 5px;
+    
+
+}
